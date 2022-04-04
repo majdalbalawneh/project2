@@ -27,7 +27,7 @@ this.position=position;
 if(this.username && this.email && this.pass &&this.position && this.cem ){
     callarr.push(this);
 storeInlocalStorage(); 
-location.href="main1.html";
+ widows.location.href="../index.html";
 }
 
 
