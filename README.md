@@ -37,7 +37,7 @@ We have created a Quiz website, so when someone applies for a position, this exa
    * [Mockup Link](https://miro.com/app/board/uXjVOA_Ov4c=/?invite_link_id=83598410905)
 
 1. Project Folder
-   * [Repo Link]()
+   * [Repo Link](https://github.com/majdalbalawneh/project2/settings/pages)
 
 1. Live Code
-   * [Live Link]()
+   * [Live Link](https://majdalbalawneh.github.io/project2/)
