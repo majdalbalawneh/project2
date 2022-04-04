@@ -94,5 +94,7 @@ margin: auto;
 
 .erros{
     position: absolute;
+    margin: 0;
+    margin-top: 3px;
     /* top: 100%; */
 }

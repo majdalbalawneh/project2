@@ -10,6 +10,7 @@ let bdate;
 let pass;			
 let cpass;
 let position=document.getElementById("position").value;
+localStorage.data;
 if(localStorage.data != undefined){
     callfromlocalstorage();
 }
@@ -27,7 +28,7 @@ this.position=position;
 if(this.username && this.email && this.pass &&this.position && this.cem ){
     callarr.push(this);
 storeInlocalStorage(); 
- widows.location.href="../index.html";
+location.href="../index.html";
 }
 
 

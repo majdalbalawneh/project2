@@ -137,8 +137,7 @@ let chosen = JSON.parse(localStorage.chosen),
     }
 
     document.getElementById("logout").onclick = function(){
-        windows.location.href = "/index.html";
-       
+        location.href = "../index.html";
     }
 
 //background-color: rgb(56 178 149 / 50%);
