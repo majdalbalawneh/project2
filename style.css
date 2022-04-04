@@ -27,7 +27,7 @@ nav{
     width: 70%;
 }
 .main1{
-    background-image:url(other/images/a7.jpg);
+    background-image:url(./other/images/images.jpg);
     background-repeat: no-repeat;
     background-position: right;
     flex: 2;
@@ -95,7 +95,7 @@ border: 0;
     font-style: italic;
 }
 .main2{
-    background-image:url(other/images/a7.jpg);
+    background-image:url(./other/images/images.jpg);
     background-repeat: no-repeat;
     background-position: right;
     flex: 2;
