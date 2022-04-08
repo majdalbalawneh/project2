@@ -17,7 +17,7 @@ nav{
     font-size: 2.5rem;
     color: #7AC9FF;
     margin: 18px;
-    font-family: 'Yeseva One', cursive;
+    /* font-family: 'Yeseva One', cursive; */
 }
 .spnav{
     color: #F1C40F;
@@ -25,26 +25,37 @@ nav{
 /*....................*/
 .main1ch{
     width: 70%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .main1{
-    background-image:url(./other/images/images.jpg);
+    background-image:url(other/images/a7.jpg);
     background-repeat: no-repeat;
     background-position: right;
     flex: 2;
     padding: 2em;
+
+    height: 100%;
 }
 .h1main{
     color:#2C3377 ;
+    text-align: center;
 }
 .pmain{
     color:#2C3377;
     font-size: 1.5em;
     font-style: italic;
     line-height: 2em;
+    text-align: center;
+    font-weight: bold;
 }
 .btn{
     width: 50%;
-    margin-top: 5em;
+    margin: auto;
+    /* margin-top: 5em; */
     display: flex;
     justify-content: space-around;
 }
@@ -83,19 +94,32 @@ border: 0;
 
 .main2ch{
     width: 70%;
+    margin: auto;
 }
 .main2header{
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
+    /* width: 50%; */
+    /* display: flex; */
+    /* justify-content: space-between; */
+    text-align: center;
 }
 .div1{
     text-align: center;
     color:#2C3377 ;
     font-style: italic;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    position: relative;
+}
+
+#flot{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
 }
 .main2{
-    background-image:url(./other/images/images.jpg);
+    background-image:url(other/images/a7.jpg);
     background-repeat: no-repeat;
     background-position: right;
     flex: 2;
@@ -110,14 +134,18 @@ border: 0;
 .div2{
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
+    font-family: sans-serif;
 }
 .div2 h2,h3{
     color: #2C3377;
     /* font-size: 1.5em; */
 }
 .skilldiv{
-    margin: 1.5em;
-    line-height:1.5em ;
+    /* margin: 1.5em; */
+    line-height:1.8em ;
+    width: 50%;
+    margin: 0;
     /* display: flex;
     flex-direction: column;
     justify-content: space-between; */
@@ -135,6 +163,7 @@ border: 0;
 .btnstartparent{
     width: 80%;
     text-align: center;
+    margin: auto;
 }
 .btnstartquiz{
     background-color:#008891 ;
@@ -161,7 +190,7 @@ footer{
 .footer{
     display: flex;
     justify-content: space-between;
-    padding: 15px 5em;
+    padding: 15px 3em;
 }
 .h2quiz{
     display: flex;
@@ -177,13 +206,13 @@ footer{
 .footer li{
     color: white;
 }
-.footer a{
+/* .footer a{
     margin:3px;
     font-size:2em;
     margin-bottom: .5em;
     margin-right: .25em;
     text-decoration: none;
-}
+} */
 .fa-linkedin-in{
     color:white;
    
@@ -283,4 +312,29 @@ footer{
 
 #position{
     font-size: 1em;
+}
+
+.infoo{
+    color: white;
+    text-align: center;
+}
+
+.infoo1{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    margin: 0;
+}
+
+.infoo1 a{
+    color: white;
+}
+
+.father{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: 10%;
 }
