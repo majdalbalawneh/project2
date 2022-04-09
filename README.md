@@ -1,7 +1,7 @@
 
 # Project2 - Quiz WebSite
 ## Group Members  {**Duaa Alsafasfeh**, **Majd AL-Balawneh**, **Bahaa Al-deen**}
-![Markdown Logo](./other/images/quizes.jpg)
+![Markdown Logo](./other/images/download.jpg)
 
 [Go to Live Link!](https://majdalbalawneh.github.io/project2/)
 
