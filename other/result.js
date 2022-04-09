@@ -23,7 +23,7 @@ let chosen = JSON.parse(localStorage.chosen),
         document.body.style.backgroundColor = "#00C897";
 
     }else{
-        document.getElementById("head").textContent = "Fail: " + count+"0%";
+        document.getElementById("head").textContent = "Fail: " + count+"%";
         document.getElementById("head").style.backgroundColor = "#d71b54";
         document.body.style.backgroundColor = "#d71b54";
 
